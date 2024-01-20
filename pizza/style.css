@@ -1,0 +1,193 @@
+*
+{
+    font-family: sans-serif;
+}
+
+.nav{
+    display: flex;
+    margin-top:20px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo-img{
+    border-radius: 30%;
+}
+.bar{
+    display: flex;
+    gap: 40px;   
+    margin-left: 420px;
+}
+
+.options{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:10px 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: yellow;
+    color: red;
+}
+
+.options:hover{
+    background-color: rgb(248, 74, 74);
+    color: yellow;
+    cursor: pointer;
+}
+
+.main{
+    margin:0px 45px;
+}
+
+.image{
+    margin-left: 30px;
+}
+
+.heading{
+    background-color: #FAD8C4;
+    display: inline;
+    margin: 30px;
+}
+
+.big{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.one-row .two-row .three-row{
+    display: flex;
+}
+
+.grid-img{
+    margin-right: 28px;
+    margin-bottom: 28px;  
+}
+
+.grid-img:hover{
+     transform:scale(1.09);
+}
+
+.news{
+    display: flex;
+    margin:50px .001px;
+}
+
+.news-img{
+    margin-left: 95px;
+}
+
+.news-img:hover{
+    transform: scale(1.2);
+}
+
+.news-next{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.topping-img{
+    border-radius: 20px;
+    margin-left: 70px;
+}
+
+.topping-content{
+    margin-top: 40px;
+    width: 35%;
+    height: 300px;
+    margin-left: -100px;
+    overflow: visible;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.topping-text{
+    font-weight: lighter;
+    color: rgb(33, 33, 33);
+    line-height: 25px;
+}
+
+h2{
+    font-size: large;
+}
+
+.top-text{
+    font-weight: lighter;
+    color: rgb(90, 89, 89)
+}
+
+span{
+    color: #ed8c53;;
+}
+
+.footer{
+    background: black;
+    color: white;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-weight: lighter;
+    color: rgb(231, 229, 229);
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+h6{
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgb(174, 173, 173);  
+}
+@media screen and (max-width:900px){
+.nav{
+    display: inline-block;
+}
+.bar{
+    margin-left: 50px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.options
+{
+    padding:10px 30px;
+    margin-top: 20px;
+}
+.heading{
+    display: inline-block;
+}
+.news-img{
+    margin-bottom: 30px;
+}
+.news-next{
+    display: inline-block;
+} 
+.topping-content{
+    width: 100%;
+    margin-left: 70px;
+}
+.col{
+    display: inline-block;
+    margin-left: 60px;
+}
+}
